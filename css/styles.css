@@ -13,6 +13,7 @@ body {
 header {
   background: #ffffff;
   border: 1px solid #ececec;
+  flex-direction: row;
 }
 
 .navigation {
@@ -55,6 +56,7 @@ button:focus {
 }
 
 .main-button {
+  justify-items: center;
   padding: 10px 32px;
   gap: 10px;
   width: 261px;
