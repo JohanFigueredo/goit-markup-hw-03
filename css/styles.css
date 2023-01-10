@@ -179,6 +179,12 @@ a:focus {
   letter-spacing: 0.03em;
 }
 
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
 footer {
   background: #2f303a;
 }
