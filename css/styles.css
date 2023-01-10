@@ -5,15 +5,14 @@ body {
 }
 
 .container {
-  justify-content: center;
+  justify-items: center;
   width: 1200px;
   padding: 0 15px;
 }
 
 header {
   background: #ffffff;
-  border-bottom: 1px;
-  border-color: #ececec;
+  border: 1px solid #ececec;
 }
 
 .navigation {
