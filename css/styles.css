@@ -4,15 +4,8 @@ body {
   color: #212121;
 }
 
-.container {
-  justify-content: center;
-  width: 1200px;
-  padding: 0 15px;
-}
-
 header {
   background: #ffffff;
-  border-bottom: #ececec 1px;
 }
 
 .navigation {
@@ -142,7 +135,7 @@ a:focus {
   text-align: center;
 }
 
-.card {
+.container {
   background: #ffffff;
 }
 
