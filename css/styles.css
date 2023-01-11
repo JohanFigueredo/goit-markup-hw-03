@@ -146,6 +146,10 @@ a:focus {
   background: #f5f4fa;
 }
 
+.team-cards:not(last-child) {
+  margin-right: 36px;
+}
+
 .team-cards {
   justify-content: center;
 }
@@ -204,13 +208,10 @@ a:focus {
   margin-right: 8px;
 }
 
-.project-card {
-  border: 1px solid #eeeeee;
-}
-
 .projects.li {
   display: flex;
   flex-wrap: wrap;
+  border: 1px solid #eeeeee;
 }
 
 .projects:nth-child(3n + 2) {
