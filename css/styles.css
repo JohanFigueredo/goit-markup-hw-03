@@ -222,17 +222,17 @@ a:focus {
   justify-content: center;
 }
 
-.projects:nth-child(3n + 2) {
-  gap: 30px;
-}
-
 .projects {
+  margin-top: 50px;
+  margin-bottom: 0;
   flex-wrap: wrap;
   padding: 0;
+  gap: 30px;
 }
 
 .project-card {
-  gap: 30px;
+  width: 370px;
+  height: 404px;
   border: 1px solid #eeeeee;
 }
 
