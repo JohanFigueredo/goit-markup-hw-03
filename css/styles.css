@@ -114,11 +114,16 @@ a:focus {
 }
 
 .contact-header {
+  flex-direction: row;
   justify-content: flex-end;
   color: #757575;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+}
+
+.operations {
+  justify-content: center;
 }
 
 .operation:not(last-child) {
@@ -142,7 +147,7 @@ a:focus {
 }
 
 .team-cards {
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .team-title {
