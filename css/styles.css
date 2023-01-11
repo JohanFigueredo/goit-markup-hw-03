@@ -146,10 +146,6 @@ a:focus {
   background: #f5f4fa;
 }
 
-.team-cards:not(last-child) {
-  margin-right: 36px;
-}
-
 .team-cards {
   justify-content: center;
 }
@@ -165,6 +161,10 @@ a:focus {
   width: 270px;
   height: 368px;
   background: #ffffff;
+}
+
+.card:not(:last-child) {
+  margin-right: 36px;
 }
 
 .member {
@@ -200,22 +200,21 @@ a:focus {
   letter-spacing: 0.03em;
 }
 
-.filter {
-  justify-content: center;
-}
-
 .filter:not(:last-child) {
   margin-right: 8px;
 }
 
-.projects.li {
-  display: flex;
-  flex-wrap: wrap;
-  border: 1px solid #eeeeee;
+.filter {
+  justify-content: center;
 }
 
 .projects:nth-child(3n + 2) {
   gap: 30px;
+}
+
+.projects {
+  flex-wrap: wrap;
+  border: 1px solid #eeeeee;
 }
 
 footer {
