@@ -19,6 +19,12 @@ header {
   border: 1px solid #ececec;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .navigation {
   font-weight: 500;
   font-size: 14px;
@@ -222,6 +228,11 @@ a:focus {
 
 .projects {
   flex-wrap: wrap;
+  padding: 0;
+}
+
+.project-card {
+  gap: 30px;
   border: 1px solid #eeeeee;
 }
 
