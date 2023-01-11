@@ -141,6 +141,10 @@ a:focus {
   background: #f5f4fa;
 }
 
+.team-cards {
+  justify-content: space-between;
+}
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -187,7 +191,19 @@ a:focus {
   letter-spacing: 0.03em;
 }
 
-.projects {
+.filter {
+  justify-content: center;
+}
+
+.filter:not(:last-child) {
+  margin-right: 8px;
+}
+
+.project-card {
+  border: 1px solid #eeeeee;
+}
+
+.projects.li {
   display: flex;
   flex-wrap: wrap;
 }
