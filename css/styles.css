@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-  justify-items: center;
+  justify-content: center;
   width: 1200px;
   padding: 0 15px;
 }
@@ -13,7 +13,6 @@ body {
 header {
   background: #ffffff;
   border: 1px solid #ececec;
-  flex-direction: row;
 }
 
 .navigation {
@@ -122,6 +121,10 @@ a:focus {
   line-height: 1.14;
 }
 
+.operation:not(last-child) {
+  margin-right: 30.26px;
+}
+
 .operation-title {
   font-weight: 700;
   font-size: 36px;
@@ -146,6 +149,8 @@ a:focus {
 }
 
 .card {
+  width: 270px;
+  height: 368px;
   background: #ffffff;
 }
 
@@ -185,6 +190,9 @@ a:focus {
 .projects {
   display: flex;
   flex-wrap: wrap;
+}
+
+.projects:nth-child(3n + 2) {
   gap: 30px;
 }
 
