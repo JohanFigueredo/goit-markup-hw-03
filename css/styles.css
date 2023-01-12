@@ -12,6 +12,7 @@ body {
   justify-content: center;
   width: 1200px;
   padding: 0 15px;
+  margin: 0 auto;
 }
 
 header {
@@ -54,6 +55,9 @@ img {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #2196f3;
+  flex: auto;
+  justify-content: flex-start;
+  margin: 25px 0;
 }
 
 button {
