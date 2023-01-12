@@ -28,7 +28,7 @@ img {
 
 .navigation {
   padding: 0;
-  margin: 33px 340px 33px 0;
+  margin: 33px 300px 33px 0;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -75,7 +75,7 @@ button:focus {
   padding: 10px 32px;
   background: #2196f3;
   border-radius: 4px;
-  margin 0 auto;
+  margin: 0 auto;
 }
 
 .button-title {
@@ -129,7 +129,7 @@ a:focus {
 
 .contact-header {
   padding: 0;
-  margin: 33px 0;
+  margin: 33px 0 33px 0;
   color: #757575;
   font-weight: 500;
   font-size: 14px;
@@ -137,10 +137,12 @@ a:focus {
 }
 
 .header-mail {
+  color: #757575;
   padding: 5px 25px;
 }
 
 .header-phone {
+  color: #757575;
   padding: 5px 5px 5px 25px;
 }
 
