@@ -27,6 +27,8 @@ img {
 }
 
 .navigation {
+  padding: 0;
+  margin: 33px 340px 33px 0;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -43,21 +45,22 @@ img {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
   color: #ffffff;
 }
 
 .logo {
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #2196f3;
-  flex: auto;
-  justify-content: flex-start;
-  margin: 25px 0;
+  padding: 10px;
+  margin: 15px 50px 15px 0;
+}
+
+.link-page {
+  padding: 15px 25px;
 }
 
 button {
@@ -69,24 +72,16 @@ button:focus {
 }
 
 .main-button {
-  justify-content: center;
   padding: 10px 32px;
-  gap: 10px;
-  width: 261px;
-  height: 50px;
   background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  margin 0 auto;
 }
 
 .button-title {
-  width: 197px;
-  height: 30px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  align-items: center;
-  text-align: center;
   color: #ffffff;
 }
 
@@ -99,7 +94,8 @@ ul {
 }
 
 .features {
-  justify-content: space-between;
+  padding: 0;
+  gap: 30px;
 }
 
 .feature {
@@ -132,12 +128,20 @@ a:focus {
 }
 
 .contact-header {
-  flex-direction: row;
-  justify-content: flex-end;
+  padding: 0;
+  margin: 33px 0;
   color: #757575;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+}
+
+.header-mail {
+  padding: 5px 25px;
+}
+
+.header-phone {
+  padding: 5px 5px 5px 25px;
 }
 
 .operations {
@@ -241,6 +245,7 @@ a:focus {
 }
 
 footer {
+  display: flex;
   background: #2f303a;
 }
 
@@ -258,6 +263,7 @@ address {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+  margin-top: 9px;
 }
 
 .categories {
@@ -277,4 +283,14 @@ address {
 
 .link-page.current {
   color: #2196f3;
+}
+
+.foot-info {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-content {
+  margin: 60px 0;
+  justify-text: center;
 }
