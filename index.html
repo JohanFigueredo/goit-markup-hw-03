@@ -20,23 +20,23 @@
   <body>
     <header>
       <section>
-        <div class="container flex">
+        <div class="container">
           <a class="header-logo logo" href="./index.html">WebStudio</a>
           <nav>
             <ul class="flex navigation">
-              <li>
-                <a class="link-page current" href="./index.html">Estudio</a>
+              <li class="link-page current">
+                <a href="./index.html">Estudio</a>
               </li>
-              <li>
-                <a class="link-page" href="./portfolio.html">Portafolio</a>
+              <li class="link-page">
+                <a href="./portfolio.html">Portafolio</a>
               </li>
-              <li>
-                <a class="link-page" href="./contactos.html">Contactos</a>
+              <li class="link-page">
+                <a href="./contactos.html">Contactos</a>
               </li>
             </ul>
           </nav>
           <ul class="contact-header flex">
-            <li>
+            <li class="contact-division">
               <a class="header-mail" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
@@ -62,20 +62,18 @@
       <section class="semi-section">
         <div class="container">
           <ul class="features flex">
-            <li>
-              <div class="feature details">
-                <h3>ATENCIÓN A LOS DETALLES</h3>
-              </div>
-              <div>
-                <p class="feature-text details-text">
+            <li class="feature-division">
+              <div class="feature"><h3>ATENCIÓN A LOS DETALLES</h3></div>
+              <div class="feature text">
+                <p>
                   Nos adentramos en todos los detalles y procesos de su negocio,
                   para así desarrollar una solución a su medida.
                 </p>
               </div>
             </li>
-            <li>
-              <div class="feature timing"><h3>PUNTUALIDAD</h3></div>
-              <div class="feature-text timing-text">
+            <li class="feature-division">
+              <div class="feature"><h3>PUNTUALIDAD</h3></div>
+              <div class="feature-text">
                 <p>
                   Con nosotros, usted puede sentirse seguro y protegido. Un
                   principio importante de la empresa: respetar su tiempo y
@@ -83,9 +81,9 @@
                 </p>
               </div>
             </li>
-            <li>
-              <div class="feature planning"><h3>PLANIFICACIÓN</h3></div>
-              <div class="feature-text planning-text">
+            <li class="feature-division">
+              <div class="feature"><h3>PLANIFICACIÓN</h3></div>
+              <div class="feature-text">
                 <p>
                   Usted podrá observar y participar en cada fase del desarrollo
                   y aplicación de soluciones
@@ -93,8 +91,8 @@
               </div>
             </li>
             <li>
-              <div class="feature technology"><h3>TECNOLOGÍA MODERNA</h3></div>
-              <div class="feature-text technology-text">
+              <div class="feature"><h3>TECNOLOGÍA MODERNA</h3></div>
+              <div class="feature-text">
                 <p>
                   Usamos herramientas innovadoras para resolver las tareas
                   asignadas. Es hora de simplificar los procesos laborales.
@@ -144,8 +142,10 @@
                 src="./images/andres.jpg"
                 alt="Hombre de camisa roja"
               />
-              <h3 class="member-andres center">Andrés Cubo</h3>
-              <p class="member-text">Diseñador de Productos</p>
+              <div class="member-description">
+                <h3 class="member-andres center">Andrés Cubo</h3>
+                <p class="member-text">Diseñador de Productos</p>
+              </div>
             </li>
             <li class="card two">
               <img
@@ -153,8 +153,10 @@
                 src="./images/carla.jpg"
                 alt="Mujer con lentes"
               />
-              <h3 class="member-carla center">Carla Palacios</h3>
-              <p class="member-text">Desarrolladora Frontend</p>
+              <div class="member-description">
+                <h3 class="member-carla center">Carla Palacios</h3>
+                <p class="member-text">Desarrolladora Frontend</p>
+              </div>
             </li>
             <li class="card three">
               <img
@@ -162,8 +164,10 @@
                 src="./images/mario.jpg"
                 alt="Hombre de camisa azul"
               />
-              <h3 class="member-mario center">Mario Dorado</h3>
-              <p class="member-text">Marketing</p>
+              <div class="member-description">
+                <h3 class="member-mario center">Mario Dorado</h3>
+                <p class="member-text">Marketing</p>
+              </div>
             </li>
             <li class="card four">
               <img
@@ -171,8 +175,10 @@
                 src="./images/pablo.jpg"
                 alt="Hombre con lentes"
               />
-              <h3 class="member-pablo center">Pablo Mijangos</h3>
-              <p class="member-text">Diseñador IU</p>
+              <div class="member-description">
+                <h3 class="member-pablo center">Pablo Mijangos</h3>
+                <p class="member-text">Diseñador IU</p>
+              </div>
             </li>
           </ul>
         </div>

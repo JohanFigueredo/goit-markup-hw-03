@@ -50,12 +50,32 @@ img {
 }
 
 .navigation {
-  margin-left: 90px;
+  margin-left: 93px;
   padding: 25px 0;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.contact-header {
+  margin-left: 356px;
+  padding: 25px 0px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.header-mail {
+  color: #757575;
+}
+
+.header-phone {
+  color: #757575;
+}
+
+.contact-division {
+  margin-right: 50px;
 }
 
 .main-display {
@@ -65,7 +85,7 @@ img {
 
 .main-title {
   width: 696px;
-  padding: 30px 0;
+  margin: 0 auto 30px auto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -84,11 +104,11 @@ img {
 }
 
 .header-logo {
-  margin: 30px 0;
+  padding: 25px 0;
 }
 
-.link-page {
-  margin: 15px 25px;
+.link-page:not(:last-child) {
+  margin-right: 50px;
 }
 
 button {
@@ -113,26 +133,24 @@ button:focus {
   color: #ffffff;
 }
 
-ul {
-  list-style: none;
-}
-
 .flex {
   display: flex;
 }
 
 .features {
   padding: 0;
-  gap: 30px;
 }
 
 .feature {
-  padding: 10px 0;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
+}
+
+.feature-division {
+  margin-right: 30px;
 }
 
 .feature-text {
@@ -143,7 +161,7 @@ ul {
   color: #757575;
 }
 
-.ul {
+ul {
   list-style: none;
   padding-left: 0;
   margin: 0;
@@ -162,31 +180,13 @@ a:focus {
   color: #2196f3;
 }
 
-.contact-header {
-  margin-left: 280px;
-  padding: 25px 0px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-}
-
-.header-mail {
-  color: #757575;
-  margin: 5px 25px;
-}
-
-.header-phone {
-  color: #757575;
-  margin: 5px 5px 5px 25px;
-}
-
 .operations {
   padding: 0;
   gap: 30.26px;
 }
 
 .operation-title {
-  padding: 40px;
+  margin: 0 auto 40px auto;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -208,7 +208,7 @@ a:focus {
 }
 
 .team-title {
-  padding: 35px;
+  margin: 0 auto 35px auto;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -230,8 +230,12 @@ a:focus {
   height: 260px;
 }
 
+.member-description {
+  padding: 30px 44px;
+}
+
 .member-andres {
-  padding: 30px 0 10px 0;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -239,7 +243,7 @@ a:focus {
 }
 
 .member-carla {
-  padding: 30px 0 10px 0;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -247,7 +251,7 @@ a:focus {
 }
 
 .member-mario {
-  padding: 30px 0 10px 0;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -255,7 +259,7 @@ a:focus {
 }
 
 .member-pablo {
-  padding: 30px 0 10px 0;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -268,12 +272,12 @@ a:focus {
 }
 
 .filter {
+  margin: 12px auto 40px auto;
   justify-content: center;
   gap: 8px;
 }
 
 .projects {
-  margin-top: 50px;
   margin-bottom: 0;
   flex-wrap: wrap;
   padding: 0;
@@ -281,7 +285,7 @@ a:focus {
 }
 
 .project-title {
-  padding: 0 0 22px 0;
+  margin: 0 0 22px 0;
 }
 
 .project-description {
@@ -295,7 +299,7 @@ a:focus {
 }
 
 .basket {
-  padding: 0 0 6px 0;
+  margin: 0 0 6px 0;
 }
 
 footer {
