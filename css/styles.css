@@ -162,7 +162,7 @@ a:focus {
 
 .contact-header {
   margin-left: 280px;
-  padding: 32px 0px;
+  padding: 25px 0px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -201,6 +201,7 @@ a:focus {
 
 .team-cards {
   justify-content: center;
+  padding: 0;
 }
 
 .team-title {
@@ -226,6 +227,7 @@ a:focus {
 }
 
 .member-andres {
+  padding: 30px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -233,6 +235,7 @@ a:focus {
 }
 
 .member-carla {
+  padding: 30px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -240,6 +243,7 @@ a:focus {
 }
 
 .member-mario {
+  padding: 30px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -247,10 +251,15 @@ a:focus {
 }
 
 .member-pablo {
+  padding: 30px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
+
+.member-text {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .filter {
