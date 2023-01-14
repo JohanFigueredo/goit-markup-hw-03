@@ -127,6 +127,7 @@ ul {
 }
 
 .feature {
+  padding: 10px 0;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -262,7 +263,7 @@ a:focus {
 }
 
 .member-text {
-  padding: 0 97px;
+  text-align: center;
   color: #757575;
 }
 
